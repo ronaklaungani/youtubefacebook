@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>list</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.396078 0 0 0 0 0.403922 0 0 0 0 0.419608 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Group-4">
+            <g transform="translate(3.000000, 5.000000)">
+                <g id="Group-3" transform="translate(0.000000, 12.000000)" fill="#65676B">
+                    <rect id="Rectangle" x="4.75000003" y="1.15463195e-14" width="13" height="1.6" rx="0.8"></rect>
+                    <rect id="Rectangle-Copy-2" x="0" y="1.24344979e-14" width="3" height="1.6" rx="0.8"></rect>
+                </g>
+                <g id="Group-3-Copy" transform="translate(0.000000, 8.000000)" fill="#65676B">
+                    <rect id="Rectangle" x="4.75000003" y="1.15463195e-14" width="13" height="1.6" rx="0.8"></rect>
+                    <rect id="Rectangle-Copy-2" x="0" y="1.24344979e-14" width="3" height="1.6" rx="0.8"></rect>
+                </g>
+                <g id="Group" fill="#65676B">
+                    <rect id="Rectangle" x="4.75000003" y="-2.66453526e-15" width="13" height="1.6" rx="0.8"></rect>
+                    <rect id="Rectangle-Copy-3" x="0" y="-2.66453526e-15" width="3" height="1.6" rx="0.8"></rect>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 4.000000)" fill="#65676B">
+                    <rect id="Rectangle-Copy" x="4.75000003" y="-3.10862447e-15" width="13" height="1.6" rx="0.8"></rect>
+                    <rect id="Rectangle-Copy-4" x="0" y="1.0658141e-14" width="3" height="1.6" rx="0.8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

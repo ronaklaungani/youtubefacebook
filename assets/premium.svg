@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>premium</title>
+    <defs>
+        <linearGradient x1="85.7847511%" y1="84.6847896%" x2="22.1086898%" y2="8.78294755%" id="linearGradient-1">
+            <stop stop-color="#F7B500" offset="0%"></stop>
+            <stop stop-color="#D99F00" offset="30.6954764%"></stop>
+            <stop stop-color="#FFDB78" offset="66.8214598%"></stop>
+            <stop stop-color="#FFBB00" offset="100%"></stop>
+        </linearGradient>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M0.930289977,1.31245063 L0.930289977,13.7284187 L9.87790575,7.5 L0.930289977,1.31245063 Z M1.05927084,0.12032314 L10.6842708,6.86921931 C11.1052431,7.1643983 11.1052431,7.8356017 10.6842708,8.13078069 L1.05927084,14.8796769 C0.601731594,15.2004961 0,14.8421735 0,14.2488962 L0,0.751103828 C0,0.157826517 0.601731594,-0.200496069 1.05927084,0.12032314 Z" id="path-3"></path>
+    </defs>
+    <g id="premium" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="12"></circle>
+            <g filter="url(#filter-2)" id="play">
+                <g transform="translate(8.000000, 5.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

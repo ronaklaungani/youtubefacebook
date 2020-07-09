@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>search-red</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF7474" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10.5,3 C14.6421356,3 18,6.35786438 18,10.5 C18,12.2731151 17.3846979,13.9025187 16.3559665,15.1863381 L16.422589,15.2440777 L20.7559223,19.577411 C21.0813592,19.9028479 21.0813592,20.4304854 20.7559223,20.7559223 C20.4304854,21.0813592 19.9028479,21.0813592 19.577411,20.7559223 L19.577411,20.7559223 L15.2440777,16.422589 C15.22302,16.4015313 15.2033249,16.379627 15.1849923,16.3569857 C13.9025187,17.3846979 12.2731151,18 10.5,18 C6.35786438,18 3,14.6421356 3,10.5 C3,6.35786438 6.35786438,3 10.5,3 Z M10.5,4.5 C7.1862915,4.5 4.5,7.1862915 4.5,10.5 C4.5,13.8137085 7.1862915,16.5 10.5,16.5 C13.8137085,16.5 16.5,13.8137085 16.5,10.5 C16.5,7.1862915 13.8137085,4.5 10.5,4.5 Z" id="path-2"></path>
+    </defs>
+    <g id="search-red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="Combined-Shape-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+    </g>
+</svg>

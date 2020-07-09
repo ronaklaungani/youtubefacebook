@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF7474" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.35314906,1.83743088 L1.35314906,19.2197861 L14.3678629,10.5 L1.35314906,1.83743088 Z M1.54075759,0.168452396 L15.5407576,9.61690704 C16.1530808,10.0301576 16.1530808,10.9698424 15.5407576,11.383093 L1.54075759,20.8315476 C0.875245955,21.2806945 0,20.7790429 0,19.9484546 L0,1.05154536 C0,0.220957124 0.875245955,-0.280694497 1.54075759,0.168452396 Z" id="path-2"></path>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="18" cy="18" r="18"></circle>
+            <g id="play" transform="translate(12.000000, 8.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YouTube</title>
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<link rel="stylesheet" type="text/css" href="src/style-420-800.css">
+	<link rel="stylesheet" type="text/css" href="src/style-420.css">
+	<link rel="icon" type="image/svg" href="assets/logo.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div id="slide-in-search-bar">
+		<input type="text" name="search-bar-name-2" placeholder="Search YouTube..." class="search-bar-2"><img src="assets/cross.svg" class="search-close-icon" onclick="slideOutSearchBar()">
+
+	</div>
+
+	<div id="top-bar">
+		<div class="top-bar-left">
+			<img src="assets/logo.svg" class="logo"><img src="assets/logo-long.svg" class="logo-long">
+			<input type="text" name="search-bar-name" placeholder="Search YouTube..." class="search-bar"><img src="assets/search.svg" class="top-search-icon" onclick="slideInSearchBar()">
+		</div>
+
+
+
+		<div class="top-bar-centre">
+			<div id="segment-inactive" onclick="window.open('index.html', '_self')">
+				<img src="assets/home.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive" onclick="window.open('trending.html', '_self')">
+				<img src="assets/trending.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive" onclick="window.open('subscriptions.html', '_self')">
+				<img src="assets/subscriptions.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-active">
+				<img src="assets/library-red.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: block;"></div>
+			</div>
+		</div>
+
+
+
+
+		<div class="top-bar-right">
+			<div></div>
+			<div id="segment-inactive">
+				<img src="assets/upload.svg" class="right-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive">
+				<img src="assets/dot-menu.svg" class="right-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive">
+				<img src="assets/bell.svg" class="right-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive">
+				<img src="assets/ronak.jpg" class="user-profile">
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<div id="search-suggestions">
+
+			<div class="v-scroll-block">
+
+				<table class="left-table-1">
+					<caption>Trending in your area</caption>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">Gangnam Style - PSY</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">Waving Flag - K'naan</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">Stranger Things Trailer</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">COVID 19 News</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">Manchester United vs Aston Villa</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/trending-small.svg" class="creator-profile"><span class="creator-names-left-tab">The Office</span></p></td></tr>
+					<tr><td><p id="left-tab-inactive">See all<img src="assets/right.svg" class="small-icons"></p></td></tr>
+				</table>
+
+			</div>
+
+		</div>
+
+	
+		
+		<div id="left-part">
+
+			<img src="assets/cross.svg" class="top-search-icon" onclick="hideMenu()" style="float: right; margin-top: -5px;">
+
+			<h1>Library</h1>
+
+			<div class="v-scroll-block">
+
+
+				<table class="left-table-1">
+					<!-- <caption>Subscriptions</caption> -->
+					<tr><td><p id="left-cell-active"><img src="assets/history.svg" class="creator-profile"><span class="creator-names-left-tab">History</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/your-videos.svg" class="creator-profile"><span class="creator-names-left-tab">Your Videos</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/watch-later.svg" class="creator-profile"><span class="creator-names-left-tab">Watch Later</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/music.svg" class="creator-profile"><span class="creator-names-left-tab">Top tracks - Music</span></p></td></tr>
+					<tr><td><p id="left-cell-inactive"><img src="assets/liked-videos.svg" class="creator-profile"><span class="creator-names-left-tab">Liked Videos</span></p></td></tr>
+					
+				</table>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+		<div class="right-part">
+
+			<h2>History<p class="linked-text" style="float: right;" onclick="displayMenu()">More</p></h2>
+
+			<p class="main-subtitle">2hrs ago</p>
+
+			<div id="right-part-body">
+
+				<div class="card1">
+					<canvas id="timerCanvas" width="50px" height="50px" value="75"></canvas>
+					<p class="time-box">3:23</p>
+					<img src="assets/podcast1.jpg" class="thumbnail">					
+					<img src="assets/ronak.jpg" class="card-profile-img">
+					<p class="card-title">Ankur Sardana of Amazon on Innovation Design & Ethics</p>
+					<p class="card-subtitle">UnPixelate Design Podcast Series<br>
+					10k views • 2 years ago</p>
+				</div>
+
+			</div>
+
+
+			<p class="main-subtitle">Yesterday</p>
+
+			<div class="right-part-body">
+
+				<script type="module" src="src/cards.js"></script>
+
+			</div>
+
+			<script src="src/index.js"></script>
+
+		</div>
+
+
+
+
+
+		<div class="bottom-navigation">
+
+			<div id="segment-active" onclick="window.open('index.html', '_self')">
+				<img src="assets/home.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive" onclick="window.open('trending.html', '_self')">
+				<img src="assets/trending.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive" onclick="window.open('subscriptions.html', '_self')">
+				<img src="assets/subscriptions.svg" class="segment-icons">
+				<div id="segment-bottom-bar" style="display: none;"></div>
+			</div>
+			<div id="segment-inactive">
+				<img src="assets/ronak.jpg" class="user-profile">
+				<div id="segment-bottom-bar" style="display: block;"></div>
+			</div>
+			
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
