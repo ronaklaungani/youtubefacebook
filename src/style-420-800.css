@@ -311,9 +311,9 @@ display: block; }
 .card-title { 
 font-weight: 600;
 color: #333333;
-font-size: 15px;
+font-size: 14px;
 line-height: 22px;
-margin: 10px 10px 5px 10px;
+margin: 10px 0px 10px 0px;
 /*text-overflow: ellipsis;
 white-space: nowrap;
   overflow: hidden;*/
@@ -324,7 +324,7 @@ font-weight: 300;
 color: #65676B;
 font-size: 12px;
 line-height: 18px;
-margin: 5px 10px 5px 10px;
+margin: 0px 0px 6px 0px;
  }
 
 
